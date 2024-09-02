@@ -11,5 +11,9 @@ public class DemoController {
 	public String welcome() {
 		return "welcome to demo app";
 	}
+	@GetMapping("/hell")
+	public String hello() {
+		return "hello to demo app";
+	}
 
 }
